@@ -1,0 +1,18 @@
+API Correios para rastreamento de encomendas!!!
+
+Determinado dia precisei de uma API para rastrear encomendas, 
+na pesquisa encontrei 2 APIs que para usufruir das mesmas, necessita de pagamento.
+
+Então, aqui está minha contribuição.
+
+Para usar é bem simples:
+
+//Instâncie a classe Correios passando como parametro o código de rastreamento da encomenda
+$Correios  =   new Correios( 'DU184795399BR' );
+
+//Aqui se retornado um array com os dados do rastreamento.
+print_r( $Correios->getRastreio() );
+
+Duvidas, cŕticas, sugestões, envie e-mail para adaoduquesn@gmail.com.
+
+Valeu!!!!
