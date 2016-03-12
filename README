@@ -7,6 +7,8 @@ Então, aqui está minha contribuição.
 
 Para usar é bem simples:
 
+A API necessita da classe Simple Html Dom, usada para manipular os dados retornados na consulta.
+
 //Instâncie a classe Correios passando como parametro o código de rastreamento da encomenda
 $Correios  =   new Correios( 'DU184795399BR' );
 
