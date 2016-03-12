@@ -13,6 +13,8 @@ $Correios  =   new Correios( 'DU184795399BR' );
 //Aqui se retornado um array com os dados do rastreamento.
 print_r( $Correios->getRastreio() );
 
+Licença: http://opensource.org/licenses/MIT	MIT License
+
 Duvidas, cŕticas, sugestões, envie e-mail para adaoduquesn@gmail.com.
 
 Valeu!!!!
